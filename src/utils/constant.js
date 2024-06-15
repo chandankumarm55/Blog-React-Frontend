@@ -1,2 +1,2 @@
-export const backEndUrl = 'http://localhost:5000';
-//https://blog-application-backend-xsr3.onrender.com
+export const backEndUrl = 'https://blog-application-backend-xsr3.onrender.com';
+//http://localhost:5000
