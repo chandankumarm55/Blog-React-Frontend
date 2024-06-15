@@ -77,7 +77,8 @@ const Edit = () => {
             data.set('content', content);
             data.set('file', files?.[0]);
             data.set('id', id)
-            data.set('userId', userInfo.user._id)
+            data.set('userId', userInfo?.user?._id)
+
 
             const res = await fetch(`${backEndUrl}/post`, {
                 method: 'PUT',
@@ -91,7 +92,6 @@ const Edit = () => {
         }
 
     }
-
 
 
     return (
